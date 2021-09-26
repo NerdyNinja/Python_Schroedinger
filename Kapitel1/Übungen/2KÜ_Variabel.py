@@ -11,3 +11,4 @@ fragezeichen = "?"
 # print(fragezeichen, "\n")
 
 print(wort1, bindestrich, wort2, fragezeichen, "\n")
+print(wort1, wort2, sep="-", end="?\n")
