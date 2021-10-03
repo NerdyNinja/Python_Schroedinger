@@ -5,4 +5,3 @@ elif int(Number) <= "5":
     print("Fuck off")
 elif int(Number) >= "6":
     print("Guter Junge!")
-
