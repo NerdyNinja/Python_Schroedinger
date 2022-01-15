@@ -3,4 +3,3 @@ def spam(eggs):
 
 
 spam(eggs="Ich bin ein Wert")
-
