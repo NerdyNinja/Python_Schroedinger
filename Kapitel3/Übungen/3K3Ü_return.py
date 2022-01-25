@@ -1,9 +1,12 @@
+# Warum müssen die Zahlen mit "" geschrieben werden um als int erkannt zuwerden? In der Abfrage
+# Ich dachte das wäre genau anders herum
+
 
 def rückgabe(zahl):
-    if zahl <= 0:
+    if zahl <= "0":
         print("Ich bin kleiner als 0")
         return 0
-    elif zahl >= 10:
+    elif zahl >= "10":
         print("Ich bin größer als 10")
         return 10
     else:
@@ -11,4 +14,4 @@ def rückgabe(zahl):
         return zahl
 
 
-rückgabe(zahl=5)
+rückgabe(zahl=input(int))
